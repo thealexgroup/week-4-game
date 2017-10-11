@@ -1,0 +1,74 @@
+body {
+	background-color: black;
+}
+
+.container {
+	background-image: url("../images/skyscraper.png"); */
+	min-height: 800px;
+	border: 2px solid black;
+	padding: 15px;
+}
+
+.crystals {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-size: 35px;
+	font-weight: 400;
+	background-color: #ca7126;
+	color: white;
+	padding: 20px 5px 20px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+/*	width: 25%; */
+}
+
+.instruction {
+	background-color: #fbe7cd;
+	margin-bottom: 15px;
+	margin-left: 10px;	
+	padding-bottom: 30px;
+	padding-top: 15px;
+	color: #69aa66;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.randnumber {
+	background-color: #5bc980;
+	margin-bottom: 15px;
+	margin-left: 10px;	
+  	padding-bottom: 30px; 
+	padding-top: 10px; 
+	color: purple;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.wins {
+	background-color: #4afdfe;
+	color: #69aa66;
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+	margin-left: 15px;
+}
+
+.pics {
+	margin-bottom: 15px;
+}
+
+.totscore {
+	color: #fff;
+	background-color: #2ba296;
+	margin-left: 15px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.realscore {
+	color: #fff;
+	background-color: #2ba296;
+	margin-left: 15px;
+	padding-top: 5px;
+	font-size: 40px;
+	font-weight: 700;
+}

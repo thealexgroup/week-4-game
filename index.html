@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystals Collector</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-md-6 col-lg-3 crystals">
+
+                CrystalsCollector!
+
+            </div>
+
+        </div>
+
+        <div class="row">
+        
+            <div class="col-xs-12 col-md-6 instruction">
+
+              <p>You will be given a random number at the start of the game.</p>
+
+              <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+              <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+              <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+            </div>
+        
+        </div>
+
+        
+        <div class="row">
+
+            <div class="col-xs-6 col-md-2 randnumber" id="randomNumber"> 
+            
+            </div>
+
+            <div class="col-xs-5 col-md-1 wins">
+                
+                <p>
+                <span id="wonLost"> </span>
+                <br>
+                <span id="numberWins"> </span>
+                <span id="numberLosses">  </span>
+                </p>
+
+            </div> 
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-6 pics">
+
+            <img src="assets/images/red.png" id="one" alt="Red">
+            <img src="assets/images/blue.png" id="two" alt="Blue">
+            <img src="assets/images/yellow.png" id="three" alt="Yellow">
+            <img src="assets/images/green.png" id="four" alt="Green">
+        
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-2 totscore">
+
+            <p>Your total score is:</p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-2 realscore">
+
+            <p id="myTotal"></p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>   
+   
+  <!-- Bootstrap minified js 3.3.7 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
